@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ChangeUserDataController">
+   <children>
+      <AnchorPane layoutY="102.0" prefHeight="298.0" prefWidth="600.0" style="-fx-background-color: #FAFAFA;">
+         <children>
+            <PasswordField fx:id="checkPassword" layoutX="336.0" layoutY="128.0" prefHeight="26.0" prefWidth="250.0" promptText="Повторный ввод пароля">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </PasswordField>
+            <TextField fx:id="newLogin" layoutX="336.0" layoutY="33.0" prefHeight="30.0" prefWidth="250.0" promptText="Новый Логин">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="NewPassword" layoutX="336.0" layoutY="79.0" prefHeight="26.0" prefWidth="250.0" promptText="Новый Пароль">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </PasswordField>
+            <SplitMenuButton layoutX="7.0" layoutY="131.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" text="Права доступа">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="админ" />
+                  <MenuItem mnemonicParsing="false" text="юзер" />
+                  <MenuItem mnemonicParsing="false" text="эксперт" />
+               </items>
+            </SplitMenuButton>
+            <TextField fx:id="securityQuestion" layoutX="7.0" layoutY="33.0" prefHeight="30.0" prefWidth="250.0" promptText="Новый Контрольный вопрос">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="securityAnswer" layoutX="8.0" layoutY="79.0" prefHeight="30.0" prefWidth="250.0" promptText="Новый Контрольный ответ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+            <ButtonBar layoutX="251.0" layoutY="252.0" prefHeight="40.0" prefWidth="341.0">
+               <buttons>
+                  <Button fx:id="registerButton" mnemonicParsing="false" onAction="#changeComplete" prefHeight="25.0" prefWidth="180.0" text="Подтвердить изменения" />
+                  <Button fx:id="returnButton" mnemonicParsing="false" onAction="#back" text="Отмена" />
+               </buttons>
+            </ButtonBar>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="loginToFind" layoutX="14.0" layoutY="53.0" prefHeight="30.0" prefWidth="250.0" promptText="Логин пользователя">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+   </children>
+</Pane>
