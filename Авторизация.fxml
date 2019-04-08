@@ -22,8 +22,8 @@
                   <Font size="14.0" />
                </font>
             </PasswordField>
-            <Button layoutX="250.0" layoutY="166.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="110.0" style="-fx-background-color: #FAFAFA;" text="Забыли пароль?" textAlignment="CENTER" textFill="#121fca" />
-            <Button layoutX="180.0" layoutY="134.0" mnemonicParsing="false" onAction="#autrization" prefHeight="30.0" prefWidth="250.0" text="Войти">
+            <Button layoutX="250.0" layoutY="166.0" mnemonicParsing="false" onAction="#recoveryPassword" prefHeight="26.0" prefWidth="110.0" style="-fx-background-color: #FAFAFA;" text="Забыли пароль?" textAlignment="CENTER" textFill="#121fca" />
+            <Button layoutX="180.0" layoutY="134.0" mnemonicParsing="false" onAction="#authorization" onKeyPressed="#registration" prefHeight="30.0" prefWidth="250.0" text="Войти">
                <font>
                   <Font size="14.0" />
                </font>
@@ -35,7 +35,7 @@
             </Label>
          </children>
       </AnchorPane>
-      <Button layoutX="14.0" layoutY="12.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="102.0" text="Регистрация">
+      <Button fx:id="registrationButton" layoutX="14.0" layoutY="12.0" mnemonicParsing="false" onAction="#registration" prefHeight="30.0" prefWidth="102.0" text="Регистрация">
          <font>
             <Font size="14.0" />
          </font>

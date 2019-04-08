@@ -19,7 +19,6 @@ public class Main {
 
     public static void main(String[] args) {
         int flag=1;
-        boolean f;
         String url = "jdbc:mysql://localhost/vase?serverTimezone=Europe/Moscow&useSSL=false";
         String username = "root";
         String password = "con2Egor";
@@ -38,14 +37,14 @@ public class Main {
         }
         try (Connection conn = DriverManager.getConnection(url, username, password)){
             String sql = "CREATE DATABASE IF NOT EXISTS vase;";
-            PreparedStatement preparedStatement = conn.prepareStatement(sql);
+            PreparedStatement preparedStatement = DatabaseConnection.getObjConnection().getConnection().prepareStatement(sql);
             preparedStatement.executeUpdate();
             sql= "CREATE TABLE IF NOT EXISTS Users (login VARCHAR(20) PRIMARY KEY , password VARCHAR(20),"+
-                    "access_rights VARCHAR(20),post VARCHAR(20))";
-            preparedStatement = conn.prepareStatement(sql);
+                    "access_rights VARCHAR(20),post VARCHAR(20), securityQuestion VARCHAR(200),securityAnswer VARCHAR(200))";
+            preparedStatement = DatabaseConnection.getObjConnection().getConnection().prepareStatement(sql);
             preparedStatement.executeUpdate();
             sql="SELECT * FROM Users;";
-            Statement statement = conn.createStatement();
+            Statement statement = DatabaseConnection.getObjConnection().getConnection().createStatement();
             ResultSet resultSet = statement.executeQuery(sql);
             if (resultSet.next()) {
                flag=1;
