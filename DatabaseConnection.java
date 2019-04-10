@@ -1,3 +1,5 @@
+package sample;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -11,8 +13,7 @@ import java.sql.SQLException;
 public class DatabaseConnection {
     String url = "jdbc:mysql://localhost/vase?serverTimezone=Europe/Moscow&useSSL=false";
     String username = "root";
-    String password = "RootPassword";
-
+    String password = "con2Egor";
     Connection connection;
     private volatile static DatabaseConnection con;
    private DatabaseConnection(){
@@ -24,7 +25,7 @@ public class DatabaseConnection {
    }
     public static DatabaseConnection getObjConnection(){
         if(con==null ){
-            synchronized (sample.PrimaryStage.class) {
+            synchronized (PrimaryStage.class) {
                 if(con==null )
                     con= new DatabaseConnection();
             }
