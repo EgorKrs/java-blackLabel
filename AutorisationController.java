@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+package sample;
+
+>>>>>>> parent of 7d9b2b4... Add files via upload
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -24,7 +29,11 @@ public class AutorisationController {
 
 //SELECT * FROM Users WHERE [field name] = "whatever";
     public void autrization(ActionEvent actionEvent) throws IOException {
+<<<<<<< HEAD
         user = new sample.User();
+=======
+        user = new User();
+>>>>>>> parent of 7d9b2b4... Add files via upload
         user.setPassword(password.getText());
         user.setLogin(login.getText());
         String sql="SELECT * FROM Users WHERE login = '"+user.getLogin()+"';";
