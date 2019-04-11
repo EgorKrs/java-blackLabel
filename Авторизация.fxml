@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
@@ -52,6 +53,8 @@
 =======
 =======
 >>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
+=======
+>>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
@@ -77,8 +80,13 @@
                </font>
             </PasswordField>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <Button layoutX="250.0" layoutY="166.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="110.0" style="-fx-background-color: #FAFAFA;" text="Забыли пароль?" textAlignment="CENTER" textFill="#121fca" />
             <Button layoutX="180.0" layoutY="134.0" mnemonicParsing="false" onAction="#autrization" prefHeight="30.0" prefWidth="250.0" text="Войти">
+=======
+            <Button layoutX="250.0" layoutY="166.0" mnemonicParsing="false" onAction="#recoveryPassword" prefHeight="26.0" prefWidth="110.0" style="-fx-background-color: #FAFAFA;" text="Забыли пароль?" textAlignment="CENTER" textFill="#121fca" />
+            <Button layoutX="180.0" layoutY="134.0" mnemonicParsing="false" onAction="#authorization" onKeyPressed="#registration" prefHeight="30.0" prefWidth="250.0" text="Войти">
+>>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
 =======
             <Button layoutX="250.0" layoutY="166.0" mnemonicParsing="false" onAction="#recoveryPassword" prefHeight="26.0" prefWidth="110.0" style="-fx-background-color: #FAFAFA;" text="Забыли пароль?" textAlignment="CENTER" textFill="#121fca" />
             <Button layoutX="180.0" layoutY="134.0" mnemonicParsing="false" onAction="#authorization" onKeyPressed="#registration" prefHeight="30.0" prefWidth="250.0" text="Войти">
@@ -95,7 +103,11 @@
          </children>
       </AnchorPane>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <Button layoutX="14.0" layoutY="12.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="102.0" text="Регистрация">
+=======
+      <Button fx:id="registrationButton" layoutX="14.0" layoutY="12.0" mnemonicParsing="false" onAction="#registration" prefHeight="30.0" prefWidth="102.0" text="Регистрация">
+>>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
 =======
       <Button fx:id="registrationButton" layoutX="14.0" layoutY="12.0" mnemonicParsing="false" onAction="#registration" prefHeight="30.0" prefWidth="102.0" text="Регистрация">
 >>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
@@ -111,6 +123,9 @@
    </children>
 </Pane>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 7d9b2b4... Add files via upload
+=======
+>>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
 =======
 >>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1

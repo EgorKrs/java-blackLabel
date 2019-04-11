@@ -1,10 +1,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 package sample;
 
 >>>>>>> parent of 7d9b2b4... Add files via upload
 import javafx.event.ActionEvent;
+=======
+package sample;
+
+>>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
 =======
 package sample;
 
@@ -32,6 +37,7 @@ public class AutorisationController {
     private Label errorTextField;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 //SELECT * FROM Users WHERE [field name] = "whatever";
     public void autrization(ActionEvent actionEvent) throws IOException {
 <<<<<<< HEAD
@@ -39,6 +45,10 @@ public class AutorisationController {
 =======
         user = new User();
 >>>>>>> parent of 7d9b2b4... Add files via upload
+=======
+    public void authorization() throws IOException {
+        user = new User();
+>>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
 =======
     public void authorization() throws IOException {
         user = new User();
