@@ -1,77 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.MenuItem?>
-<?import javafx.scene.control.PasswordField?>
-<?import javafx.scene.control.SplitMenuButton?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.text.Font?>
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0"
-      style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
-   fx:controller="sample.RegistrationController">
-   <children>
-      <AnchorPane layoutY="102.0" prefHeight="298.0" prefWidth="600.0" style="-fx-background-color: #FAFAFA;">
-         <children>
-            <PasswordField fx:id="checkPassword" layoutX="336.0" layoutY="128.0" prefHeight="26.0" prefWidth="250.0" promptText="Повторный ввод пароля">
-               <font>
-                  <Font size="14.0" />
-               </font>
-            </PasswordField>
-            <TextField fx:id="newLogin" layoutX="336.0" layoutY="33.0" prefHeight="30.0" prefWidth="250.0" text="Логин">
-               <font>
-                  <Font size="14.0" />
-               </font>
-            </TextField>
-            <PasswordField fx:id="NewPassword" layoutX="336.0" layoutY="79.0" prefHeight="26.0" prefWidth="250.0" promptText="Пароль">
-               <font>
-                  <Font size="14.0" />
-               </font>
-            </PasswordField>
-            <SplitMenuButton layoutX="7.0" layoutY="131.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" text="Права доступа">
-              <items>
-                <MenuItem mnemonicParsing="false" text="админ" />
-                <MenuItem mnemonicParsing="false" text="юзер" />
-                  <MenuItem mnemonicParsing="false" text="эксперт" />
-              </items>
-            </SplitMenuButton>
-            <TextField fx:id="securityQuestion" layoutX="7.0" layoutY="33.0" prefHeight="30.0" prefWidth="250.0" text="Контрольный вопрос">
-               <font>
-                  <Font size="14.0" />
-               </font>
-            </TextField>
-            <TextField fx:id="securityAnswer" layoutX="8.0" layoutY="79.0" prefHeight="30.0" prefWidth="250.0" text="Контрольный ответ">
-               <font>
-                  <Font size="14.0" />
-               </font>
-            </TextField>
-            <Button fx:id="registerButton" onAction="#registrationComplete" layoutX="232.0" layoutY="177.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="133.0" text="Зарегистрировать" />
-         </children>
-      </AnchorPane>
-      <Label layoutX="211.0" layoutY="46.0" prefHeight="46.0" prefWidth="179.0" text="Регистрация" textAlignment="CENTER" textFill="WHITE">
-         <font>
-            <Font size="31.0" />
-         </font>
-      </Label>
-   </children>
-</Pane>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.MenuItem?>
-<?import javafx.scene.control.PasswordField?>
-<?import javafx.scene.control.SplitMenuButton?>
-=======
-=======
->>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
@@ -80,26 +6,12 @@
 <?import javafx.scene.control.MenuButton?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.PasswordField?>
-<<<<<<< HEAD
->>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
-=======
->>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0"
-      style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
-   fx:controller="sample.RegistrationController">
-=======
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RegistrationController">
->>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
-=======
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RegistrationController">
->>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
    <children>
       <AnchorPane layoutY="102.0" prefHeight="298.0" prefWidth="600.0" style="-fx-background-color: #FAFAFA;">
          <children>
@@ -108,65 +20,26 @@
                   <Font size="14.0" />
                </font>
             </PasswordField>
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <TextField fx:id="newLogin" layoutX="336.0" layoutY="33.0" prefHeight="30.0" prefWidth="250.0" text="Логин">
-=======
             <TextField fx:id="newLogin" layoutX="336.0" layoutY="33.0" prefHeight="30.0" prefWidth="250.0" promptText="Логин">
->>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
-=======
-            <TextField fx:id="newLogin" layoutX="336.0" layoutY="33.0" prefHeight="30.0" prefWidth="250.0" promptText="Логин">
->>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
                <font>
                   <Font size="14.0" />
                </font>
             </TextField>
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <PasswordField fx:id="NewPassword" layoutX="336.0" layoutY="79.0" prefHeight="26.0" prefWidth="250.0" promptText="Пароль">
-=======
             <PasswordField fx:id="newPassword" layoutX="336.0" layoutY="79.0" prefHeight="26.0" prefWidth="250.0" promptText="Пароль">
->>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
-=======
-            <PasswordField fx:id="newPassword" layoutX="336.0" layoutY="79.0" prefHeight="26.0" prefWidth="250.0" promptText="Пароль">
->>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
                <font>
                   <Font size="14.0" />
                </font>
             </PasswordField>
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <SplitMenuButton layoutX="7.0" layoutY="131.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="250.0" text="Права доступа">
-              <items>
-                <MenuItem mnemonicParsing="false" text="админ" />
-                <MenuItem mnemonicParsing="false" text="юзер" />
-                  <MenuItem mnemonicParsing="false" text="эксперт" />
-              </items>
-            </SplitMenuButton>
-            <TextField fx:id="securityQuestion" layoutX="7.0" layoutY="33.0" prefHeight="30.0" prefWidth="250.0" text="Контрольный вопрос">
-=======
-=======
->>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
             <TextField fx:id="securityQuestion" layoutX="7.0" layoutY="33.0" prefHeight="30.0" prefWidth="250.0" promptText="Cекретный вопрос">
                <font>
                   <Font size="14.0" />
                </font>
             </TextField>
             <TextField fx:id="securityAnswer" layoutX="8.0" layoutY="79.0" prefHeight="30.0" prefWidth="250.0" promptText="Cекретный ответ">
-<<<<<<< HEAD
->>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
-=======
->>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
                <font>
                   <Font size="14.0" />
                </font>
             </TextField>
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <TextField fx:id="securityAnswer" layoutX="8.0" layoutY="79.0" prefHeight="30.0" prefWidth="250.0" text="Контрольный ответ">
-=======
-=======
->>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
             <ButtonBar layoutX="281.0" layoutY="238.0" prefHeight="46.0" prefWidth="306.0" style="-fx-background-color: #FAFAFA;">
               <buttons>
                   <Button fx:id="registerButton" mnemonicParsing="false" onAction="#registrationComplete" prefHeight="30.0" style="-fx-background-color: #2E3348;" text="Зарегистрировать" textFill="WHITE" />
@@ -186,29 +59,15 @@
                </font>
             </Label>
             <TextField fx:id="position" layoutX="336.0" layoutY="181.0" prefHeight="30.0" prefWidth="250.0" promptText="Должность">
-<<<<<<< HEAD
->>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
-=======
->>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
                <font>
                   <Font size="14.0" />
                </font>
             </TextField>
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <Button fx:id="registerButton" onAction="#registrationComplete" layoutX="232.0" layoutY="177.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="133.0" text="Зарегистрировать" />
-=======
-=======
->>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
             <Label fx:id="coolTextField" layoutX="12.0" layoutY="182.0" prefHeight="28.0" prefWidth="243.0" textAlignment="CENTER" textFill="#12d312">
                <font>
                   <Font size="15.0" />
                </font>
             </Label>
-<<<<<<< HEAD
->>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
-=======
->>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
          </children>
       </AnchorPane>
       <Label layoutX="211.0" layoutY="46.0" prefHeight="46.0" prefWidth="179.0" text="Регистрация" textAlignment="CENTER" textFill="WHITE">
@@ -218,10 +77,3 @@
       </Label>
    </children>
 </Pane>
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 7d9b2b4... Add files via upload
-=======
->>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
-=======
->>>>>>> parent of 76b0058... Merge pull request #1 from Pburua/NewBranch1
